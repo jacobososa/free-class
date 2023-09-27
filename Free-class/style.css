@@ -1,0 +1,52 @@
+/*# sourceMappingURL=style.css.map */
+body{
+    background-color: #222e5e;
+}
+
+.navegacion{
+    position: relative;
+    background-color:#2c3f76;
+    text-align: center;
+    height: 40px;
+}
+.navegacion h1{
+    color: yellow;
+}
+.foto-informacion{
+    background-color: white;
+    width: 590px;
+    height: 580px;
+}
+.foto-informacion2{
+    background-color: white;
+    position: relative;
+    bottom: 580px;
+    left: 590px;
+    width: 620px;
+    height: 580px;
+}
+
+.informacion h1{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    text-align: center;
+}
+.informacion p{
+    font-size: 25px;
+    position: relative;
+    color: white;
+    text-align:left
+}
+.informacion h3{
+    position: relative;
+    font-size: 20px;
+    color: rgba(255, 230, 0, 0.815);
+    text-align: left;
+}
+hr[_ngcontent-udp-c81] {
+    position: relative;
+    bottom: 500px;
+    width: 80%;
+    margin: 0 auto;
+}

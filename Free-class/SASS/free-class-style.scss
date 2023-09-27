@@ -1,0 +1,541 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+  }
+  
+  body {
+    background-color: #222e5e;
+  }
+  
+  .contenedor {
+    display: grid;
+  
+  }
+  .navegacion {
+    position: relative;
+    background-color: #2c3f76;
+    text-align: center;
+    height: 40px;
+    color: yellow;
+  }
+  
+  .fotos_Principales{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .foto-informacion {
+    background-color: rgb(253, 253, 253);
+    width: 50%;
+    height: 70%;
+    padding: 10%;
+  }
+  
+  .foto-informacion2 {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 70%;
+    padding: 10%;
+  }
+  
+  .informacion_Uno {
+    width: 100%;
+    height: 100%;
+    margin-top: 280px;
+    padding-top: 5%;
+    
+  }
+  
+  .informacion_Uno h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+  .informacion_Uno p {
+    font-size: 110%;
+    margin: 3%;
+    color: white;
+    padding-left: 15%;
+  }
+  .informacion_Uno h3 {
+    font-size: 107%;
+    color: rgba(255, 230, 0, 0.815);
+    padding-left: 18%;
+    
+  }
+  .linea{
+    background-color: aliceblue;
+    width: 60%;
+    height: 1px;
+    display:block;
+    margin: 2% 20%;
+  }
+  .informacion_Dos {
+    position: absolute;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    top: 10%;
+    left: 13%;
+  }
+  
+  .informacion_Tres {
+    background-color: rgba(255, 208, 0, 0.911);
+    position: absolute;
+    top: 150%;
+    height: 50%;
+    width: 100%;
+  }
+  .informacion_Tres p {
+    position: absolute;
+    font-size: 150%;
+    color: #222e5e;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+  }
+  .informacion_Tres button {
+    position: absolute;
+    color: white;
+    background-color: #222e5e;
+    border-radius: 20px;
+    font-size: 150%;
+    width: 44%;
+    height: 10%;
+    top: 70%;
+    left: 27%;
+  }
+  .icono {
+    position: absolute;
+    top: 144%;
+    left: 45%;
+    
+  }
+  .informacion_Cuatro {
+    background-color: rgba(255, 255, 255, 0.945);
+    position: absolute;
+    top: 200%;
+    height: 50%;
+    width: 100%;
+  }
+  .informacion_Cuatro .parrafoUno {
+    position: relative;
+    color: #222e5e;
+    font-size: 150%;
+    text-align: left;
+    width: 54%;
+    top: 15%;
+    left: 25%;
+  }
+  .informacion_Cuatro p {
+    position: relative;
+    color: #222e5e;
+    font-size: 150%;
+    text-align: left;
+    width: 54%;
+    top: 20%;
+    left: 25%;
+  }
+  .informacion_cinco {
+    background-color: white;
+    position: absolute;
+    top: 240%;
+    height: 35%;
+    width: 100%;
+  }
+  .informacion_cinco p {
+    position: relative;
+    color: #222e5e;
+    font-size: 150%;
+    text-align: left;
+    width: 61%;
+    top: 12%;
+    left: 25%;
+  }
+  .informacion_cinco button {
+    position: absolute;
+    color: #222e5e;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 150%;
+    width: 44%;
+    height: 22%;
+    top: 43%;
+    left: 30%;
+  }
+  
+  /*Responsivo */
+  
+  
+  
+  @media (max-width: 1510px) {
+   
+    .informacion_Uno {
+      background-color: #0000003f;
+      width: 100%;
+      height: 100%;
+      margin-top: 210px;
+      padding-top: 5%;
+      
+    }
+    .informacion_Tres {
+      background-color: rgba(255, 208, 0, 0.911);
+      position: absolute;
+      top: 111%;
+      height: 50%;
+      width: 100%;
+    }
+    .icono {
+      position: absolute;
+      top: 105%;
+      left: 45%;
+      
+    }
+    .informacion_Cuatro {
+      background-color: rgba(255, 255, 255, 0.945);
+      position: absolute;
+      top: 161%;
+      height: 50%;
+      width: 100%;
+    }
+    .informacion_cinco {
+      background-color: white;
+      position: absolute;
+      top: 210%;
+      height: 35%;
+      width: 100%;
+    }
+    
+  }
+  
+  @media (max-width: 1200px) {
+   
+    .informacion_Uno {
+      position: absolute;
+      align-items: center;
+      background-color: #222e5e;
+      width: 60%;
+      height: 63%;
+      padding-top: 5%;
+      top: 185px;
+      left: 19%;
+      
+    }
+    .informacion_Uno h1 {
+        color: white;
+        position: absolute;
+        top: 60px;
+        font-size: 30px;
+        text-align: center;
+        
+      }
+      .informacion_Uno p {
+        position: relative;
+        top: 112px;
+        font-size: 126%;
+        margin: 3%;
+        color: rgb(255, 255, 255);
+        padding-left: 15%;
+      }
+      .informacion_Uno h3 {
+        position: absolute;
+        top: 242px;
+        font-size: 107%;
+        color: rgba(255, 230, 0, 0.815);
+        padding-left: 18%;
+        
+      }
+      .linea{
+        background-color: rgb(249, 251, 253);
+        position: absolute;
+        top: 111%;
+        width: 70%;
+        height: 1px;
+        display:block;
+        margin: 2% 20%;
+        left: -5%;
+      }
+      .informacion_Dos {
+        position: absolute;
+        color: white;
+        font-size: 135%;
+        text-align: center;
+        width: 40%;
+        top: 118%;
+        left: 30%;
+      }
+    .informacion_Tres {
+      background-color: rgba(255, 208, 0, 0.911);
+      position: absolute;
+      top: 138%;
+      height: 35%;
+      width: 100%;
+    }
+      .informacion_Tres p {
+        position: absolute;
+        font-size: 115%;
+        color: #222e5e;
+        text-align: center;
+        width: 50%;
+        left: 25%;
+        top: 25%;
+      }
+      .informacion_Tres button {
+        position: absolute;
+        color: white;
+        background-color: #222e5e;
+        border-radius: 20px;
+        font-size: 150%;
+        width: 34%;
+        height: 10%;
+        top: 60%;
+        left: 33%;
+      }
+    .icono {
+      position: absolute;
+      width: 70px;
+      top: 133%;
+      left: 45%;
+      
+    }
+    .informacion_Cuatro {
+      background-color: rgba(255, 255, 255, 0.945);
+      position: absolute;
+      top: 173%;
+      height: 38%;
+      width: 100%;
+    }
+      .informacion_Cuatro .parrafoUno {
+        position: relative;
+        color: #222e5e;
+        font-size: 150%;
+        text-align: left;
+        width: 54%;
+        top: 15%;
+        left: 25%;
+      }
+      .informacion_Cuatro p {
+        position: relative;
+        color: #222e5e;
+        font-size: 143%;
+        text-align: left;
+        width: 54%;
+        top: 25%;
+        left: 25%;
+      }
+    .informacion_cinco {
+      background-color: white;
+      position: absolute;
+      top: 211%;
+      height: 35%;
+      width: 100%;
+    }
+    .informacion_cinco button {
+        position: absolute;
+        color: #222e5e;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 150%;
+        width: 29%;
+        height: 17%;
+        top: 43%;
+        left: 41%;
+    }
+    
+  }
+  
+  @media (max-width: 800px) {
+   
+    .informacion_Uno {
+      background-color: #1d1b1b3f;
+      width: 100%;
+      height: 100%;
+      margin-top: 105px;
+      padding-top: 5%;
+      
+    }
+    .informacion_Tres {
+      background-color: rgba(255, 208, 0, 0.911);
+      position: absolute;
+      top: 130%;
+      height: 50%;
+      width: 100%;
+    }
+    .icono {
+      position: absolute;
+      top: 121%;
+      left: 40%;
+      
+    }
+    .informacion_Cuatro {
+      background-color: rgba(255, 255, 255, 0.945);
+      position: absolute;
+      top: 180%;
+      height: 50%;
+      width: 100%;
+    }
+    .informacion_cinco {
+      background-color: white;
+      position: absolute;
+      top: 230%;
+      height: 35%;
+      width: 100%;
+    }
+    
+  }
+  
+  @media (max-width: 750px) {
+   
+    .informacion_Uno {
+      background-color: #222e5e;
+      position: absolute;
+      top: 14%;
+      width: 70%;
+      height: 50%;
+      font-size: 110%;
+    }
+    .informacion_Uno h1 {
+        position: absolute;
+        top: -2%;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        
+      }
+    .informacion_Uno p{
+            position: relative;
+            left: -18%;
+            width: 100%;
+            top: 112px;
+            font-size: 85%;
+            color: rgb(255, 255, 255);
+          
+      }
+      .informacion_Uno h3 {
+        font-size: 73%;
+        position: absolute;
+        top: 46%;
+        left: -40px;
+        color: rgba(255, 230, 0, 0.815);
+        padding-left: 18%;
+        
+      }
+    .linea{
+        position:absolute;
+        background-color: aliceblue;
+        width: 68%;
+        height: 2px;
+        display:block;
+        margin: 2% 20%;
+        top: 71%;
+        left: -2%;
+      }
+      .informacion_Dos {
+        background-color: #222e5e;
+        position: absolute;
+        width: 60%;
+        color: white;
+        font-size: 93%;
+        text-align: center;
+        top: 76%;
+        left: 21%;
+      }
+    .informacion_Tres {
+      background-color: rgba(255, 208, 0, 0.911);
+      position: absolute;
+      top: 88%;
+      height: 30%;
+      width: 100%;
+    }
+    .informacion_Tres p {
+        position: absolute;
+        color: #222e5e;
+        text-align: center;
+        width: 70%;
+        left: 25%;
+        top: 25%;
+        font-size: 87%;
+        left: 50px;
+      }
+      .informacion_Tres button {
+        position: absolute;
+        color: white;
+        background-color: #222e5e;
+        border-radius: 20px;
+        font-size: 150%;
+        width: 83%;
+        height: 11%;
+        top: 65%;
+        left: 4%;
+      }
+    .icono {
+      position: absolute;
+      top: 84%;
+      width: 55px;
+      left: 40%;
+      
+    }
+    .informacion_Cuatro {
+      background-color: rgba(255, 255, 255, 0.945);
+      position: absolute;
+      top: 118%;
+      height: 30%;
+      width: 100%;
+    }
+    .informacion_Cuatro .parrafoUno {
+        position: relative;
+        color: #222e5e;
+        font-size: 109%;
+        text-align: left;
+        width: 85%;
+        top: 15%;
+        left: 9%;
+      }
+      .informacion_Cuatro p {
+        position: relative;
+        color: #222e5e;
+        font-size: 107%;
+        text-align: left;
+        width: 85%;
+        top: 20%;
+        left: 7%;
+      }
+    .informacion_cinco {
+      background-color: white;
+      position: absolute;
+      top: 147%;
+      height: 25%;
+      width: 100%;
+    }
+    .informacion_cinco p {
+        position: relative;
+        color: #222e5e;
+        font-size:105%;
+        text-align: left;
+        text-align: center;
+        width: 100%;
+        top: 18%;
+        left: -4%;
+      }
+      .informacion_cinco button {
+        position: absolute;
+        color: #222e5e;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 150%;
+        width: 76%;
+        height: 17%;
+        top: 52%;
+        left: 7%;
+      }
+    
+  }
+
+  
+  
+  
